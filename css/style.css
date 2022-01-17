@@ -98,7 +98,11 @@ button {
 }
 h5 {
   color: black;
-  text-shadow: 0 0 5px #999;
+  text-shadow: 0 0 5px white;
+}
+p{
+   color: white;
+  text-shadow: 0 0 5px black;
 }
 .card-1 {
   background-image: url(https://github.com/Mehedi-Hasan-Himel/sahara-desert/blob/main/img/pic-1.png?raw=true);
