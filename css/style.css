@@ -94,10 +94,11 @@ button {
   margin: 10px 15px;
   background-position: center;
   background-size: cover;
+  transition:  .5s;
 }
 h5 {
   color: black;
-  /* font-size: 20px; */
+  text-shadow: 0 0 5px #999;
 }
 .card-1 {
   background-image: url(https://github.com/Mehedi-Hasan-Himel/sahara-desert/blob/main/img/pic-1.png?raw=true);
@@ -110,4 +111,8 @@ h5 {
 }
 .card-4 {
   background-image: url(https://github.com/Mehedi-Hasan-Himel/sahara-desert/blob/main/img/pic-4.png?raw=true);
+}
+
+.card:hover{
+   transform: translateY(-10px);
 }
