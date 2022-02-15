@@ -1,97 +1,81 @@
 /*******************
 Universal Code Start 
 ********************/
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
-
 .container {
   width: 100%;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(https://github.com/Mehedi-Hasan-Himel/sahara-desert/blob/main/img/background.png?raw=true);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://github.com/Mehedi-Hasan-Himel/sahara-desert/blob/main/img/background.png?raw=true);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://github.com/Mehedi-Hasan-Himel/sahara-desert/blob/main/img/background.png?raw=true);
   background-position: center;
   background-size: cover;
   padding-left: 8%;
   padding-right: 8%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*******************
    Universal Code End 
 ********************/
+
 /********************
    NavBar Start  
 ********************/
+
 .navbar {
   height: 12%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.navbar__logo {
-  width: 50px;
-  cursor: pointer;
-}
-
-.navbar__nav {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  text-align: right;
-}
-
-.navbar__nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 60px;
-}
-
-.navbar__nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 13px;
-}
-
-.navbar__menu-icon {
-  width: 30px;
-  cursor: pointer;
-  margin-right: 40px;
+  align-items: center;
+  &__logo {
+    width: 50px;
+    cursor: pointer;
+  }
+  &__nav {
+    flex: 1;
+    text-align: right;
+    ul li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 60px;
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+      }
+    }
+  }
+  &__menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
 }
 
 /*******************
    NavBar End  
 ********************/
+
 /*******************
    Card section Start  
 ********************/
+
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 88%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .col {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  flex-basis: 50%;
 }
-
 h1 {
   color: #fff;
   font-size: 100px;
 }
-
 button {
   width: 180px;
   color: #000;
@@ -103,7 +87,6 @@ button {
   outline: none;
   margin-top: 30px;
 }
-
 .card {
   width: 200px;
   height: 230px;
@@ -111,48 +94,36 @@ button {
   border-radius: 10px;
   padding: 15px 25px;
   color: #fff;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   cursor: pointer;
   margin: 10px 15px;
   background-position: center;
   background-size: cover;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  &:hover {
+    transform: translateY(-10px);
+  }
 }
-
-.card:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
-
 h5 {
   color: black;
   text-shadow: 0 0 5px white;
 }
-
 p {
   color: white;
   text-shadow: 0 0 5px black;
 }
-
 .card-1 {
   background-image: url(https://github.com/Mehedi-Hasan-Himel/sahara-desert/blob/main/img/pic-1.png?raw=true);
 }
-
 .card-2 {
   background-image: url(https://github.com/Mehedi-Hasan-Himel/sahara-desert/blob/main/img/pic-3.png?raw=true);
 }
-
 .card-3 {
   background-image: url(https://github.com/Mehedi-Hasan-Himel/sahara-desert/blob/main/img/pic-2.png?raw=true);
 }
-
 .card-4 {
   background-image: url(https://github.com/Mehedi-Hasan-Himel/sahara-desert/blob/main/img/pic-4.png?raw=true);
 }
-
 /*******************
    Card section End  
 ********************/
-/*# sourceMappingURL=style.css.map */
